@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #212121;
+    color: #fff;
+}
+#main-container{
+    border: 1px solid;
+    width: 60%;
+    margin:80px auto ;
+    height: 400px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px;
+    height: auto;
+}
+#form{
+    margin: 10px;
+    padding: 5px ;
+}
+#search{
+    width: 100%;
+    padding: 10px 10px;
+    /* background-color: ; */
+    border-radius: 10px;
+    border:none ;
+    
+
+}
+.profile-container{
+    display: flex;
+    /* border: 1px solid; */
+    margin-top: 0px;
+    margin: 5px 10px;
+
+}
+.img-container{
+    /* border: 1px solid; */
+    margin: auto;
+}
+.img-container img{
+    border-radius: 50%;
+    width: 70%;
+    border: 2px solid gray;
+    padding: 2px;
+}
+.card{
+    /* border: 1px solid; */
+    width: 100%;
+}
+.card h2{
+    padding: 10px;
+    margin:8px 0px ;
+
+}
+.card h4{
+    margin-bottom: 15px;
+    word-wrap: normal;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    /* border: 1px solid; */
+    flex-wrap: wrap;
+    width: 100%;
+    list-style: none;
+    margin-bottom: 10px;
+
+}
+.info li{
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: rgb(211, 202, 191);
+    color: #212121;
+    padding: 2px 4px;
+
+}
+#repos{
+    /* border: 1px solid ; */
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+#repos a{
+    border: 2px solid purple;
+    border-radius: 5px;
+    padding: 2px 4px;
+    background-color: blueviolet;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px;
+   
+}
+
+@media screen and (max-width:855px) {
+   .info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 8px;
+   } 
+   .info li{
+      margin: 6px 0px;
+   }
+#repos{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+#repos a{
+   margin: 6px 0px;
+}
+
+.img-container img{
+   width:70%;
+}
+.profile-container{
+    display: flex;
+    margin: 30px;
+    flex-direction: column;
+}
+}
+@media screen and (max-width:782px) {
+    .profile-container{
+        display: flex;
+        margin: 30px;
+        flex-direction: column;
+    }
+    #repos a{
+        /* border: 1px solid ; */
+        
+        text-align: center;
+        margin-right: 5px;
+        
+    }
+}
+
